@@ -1,0 +1,6 @@
+## Trying to create an AI that play brawl stars as a dynamic library for iOS (jailbroken devices only)
+### Advancement :
+- 18/07/24 : Bot detection (still in dev) but globally work when player is static
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/1.png)
+- 18/07/24 : Improved accuracy
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/2.png)
