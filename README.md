@@ -8,3 +8,5 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/3.png)
 - 18/07/24 : Improving accuracy
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/4.png)
+- 18/07/24 : Added "fakeenv" to the game to improve accuracy --> 100% soon
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/5.png)
