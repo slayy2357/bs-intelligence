@@ -5,4 +5,4 @@
 - 18/07/24 : Improved accuracy
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/2.png)
 - 18/07/24 : Added all frames detect to detect when player isn't static (still in dev)
-![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/2=3.png)
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/3.png)
