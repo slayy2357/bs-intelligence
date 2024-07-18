@@ -16,3 +16,4 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/7.png)
 - 18/07/24 : Added a way to orient yourself without blocks or textures and to calculate your position on a map in brawl stars format
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/8.png)
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/9.png)
