@@ -12,3 +12,5 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/5.png)
 - 18/07/24 : More accuracy
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/6.png)
+- 18/07/24 : 100% accuracy for bots 1,2,3,4 : done
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/6.png)
