@@ -17,3 +17,7 @@
 - 18/07/24 : Added a way to orient yourself without blocks or textures and to calculate your position on a map in brawl stars format
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/8.png)
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/9.png)
+- 19/07/24 : Develop a way for the AI ​​to create a geographic scale for understanding Brawl Stars data (1 ≃ 20.88 px) 1 is the Brawl Stars data and 20.88 px is the scale for the program to understand the data
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/10.png)
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/11.png)
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/12.png)
