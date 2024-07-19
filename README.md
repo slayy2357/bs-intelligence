@@ -21,3 +21,5 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/10.png)
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/11.png)
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/12.png)
+- 19/07/24 : Now the AI ​​can read certain columns from brawl stars csv files and scale them
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/13.png)
