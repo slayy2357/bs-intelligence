@@ -29,3 +29,5 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/15.png)
 - 20/07/24 : So ingame result :
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/16.png)
+- 20/07/24 : Then connect the centers and print the length of each vector
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/17.png)
