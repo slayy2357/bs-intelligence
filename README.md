@@ -24,4 +24,4 @@
 - 19/07/24 : Now the AI ​​can read certain columns from brawl stars csv files and scale them
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/13.png)
 - 20/07/24 : I am still working on the most precise way to orient myself only with Brawl Stars data, you have to be as precise as possible to understand the distance between 2 points (1 point = ?) (still in dev)
-![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/13.png)
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/14.png)
