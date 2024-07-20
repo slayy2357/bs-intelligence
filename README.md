@@ -27,3 +27,5 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/14.png)
 - 20/07/24 : I found a way to be as precise as possible: modify the map to add a second spawner which has one point of difference with the first spawner. If we measure their distance we will therefore find the scale
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/15.png)
+- 20/07/24 : So ingame result :
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/16.png)
