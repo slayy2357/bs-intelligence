@@ -25,3 +25,5 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/13.png)
 - 20/07/24 : I am still working on the most precise way to orient myself only with Brawl Stars data, you have to be as precise as possible to understand the distance between 2 points (1 point = ?) (still in dev)
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/14.png)
+- 20/07/24 : I found a way to be as precise as possible: modify the map to add a second spawner which has one point of difference with the first spawner. If we measure their distance we will therefore find the scale for 3 points (counting the spawners)
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/15.png)
