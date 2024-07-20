@@ -31,5 +31,5 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/16.png)
 - 20/07/24 : Then connect the centers and print the length of each vector
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/17.png)
-- 20/07/24 : 3 points (in brawl stars data) = `89px`, `89/3 ≃ 29.66` : 1 point (in brawl stars data) = `29.66px`
+- 20/07/24 : 3 points (in brawl stars data) = `89px`, `89/3 ≃ 29.6666666667` : 1 point (in brawl stars data) = `29.66px`
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-recognition-dylib/main/pictures/18.png)
