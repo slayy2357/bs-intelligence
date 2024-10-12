@@ -1,2 +1,2 @@
-## Trying to create an AI that play brawl stars as a dynamic library for iOS (jailbroken devices only)
+## Trying to create an EXTERNAL AI that play brawl stars using INTERNAL functions of the game, jailbreak required
 ### Advancement :
