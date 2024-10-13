@@ -1,4 +1,4 @@
-## Trying to create an EXTERNAL AI that play brawl stars using INTERNAL functions of the game, jailbreak required
+## Trying to create an external AI that play brawl stars using internal functions of the game, jailbreak required
 ### Part 1 : make the AI to orient itself
 #### Read the number of players left
 - Able to read the number of players left (usually for showdown)
