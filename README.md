@@ -86,8 +86,8 @@ Request sent to: 182.138.227.44:528
 ```
 - Common points :
 ```text
-darryl req 1, 14 first bytes : 37 16 00 00 19 00 00
-buzz req 1, 14 first bytes   : 37 16 00 00 19 00 00
+darryl req 1, 7 first bytes : 37 16 00 00 19 00 00
+buzz req 1, 7 first bytes   : 37 16 00 00 19 00 00
 
 darryl req 2, 7 first bytes : 37 26 00 00 19 00 00
 buzz req 1, 7 first bytes   : 37 26 00 00 1a 00 00
