@@ -5,4 +5,4 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/1.png)
 #### Get enemy coordinates in game (later)
 ### Part 2 : traffic
-#### dynamic analyse : POST requests
+#### Dynamic analyse : POST requests
