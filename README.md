@@ -6,3 +6,5 @@
 #### Get enemy coordinates in game (later)
 ### Part 2 : traffic
 #### Dynamic analyse : POST requests
+- Able to intercept every requests of the game, but I need to understand the encryption process
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/2.png)
