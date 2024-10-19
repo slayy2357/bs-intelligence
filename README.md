@@ -90,5 +90,7 @@ darryl req 1, 7 first bytes : 37 16 00 00 19 00 00
 buzz req 1, 7 first bytes   : 37 16 00 00 19 00 00
 
 darryl req 2, 7 first bytes : 37 26 00 00 19 00 00
-buzz req 1, 7 first bytes   : 37 26 00 00 1a 00 00
+buzz req 2, 7 first bytes   : 37 26 00 00 1a 00 00
+
+here in the req 2, the fifth byte looks like an ID that changes when switching characters, or a parameter
 ```
