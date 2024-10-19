@@ -6,8 +6,6 @@
 #### Get enemy coordinates in game (later)
 ### Part 2 : traffic
 #### Dynamic analyse : POST requests
-- Able to intercept every requests of the game, but I need to understand the encryption process
-![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/2.png)
 - Example request when you join the training room : darryl
 ```text
 //bloc of request 1
@@ -68,4 +66,7 @@ Partially Printable Data (Hex & String): 8.......HgLh..6.......2..
 Hex: 38 1e 00 00 12 00 00 ad 48 67 4c 68 d8 7f 36 05 f7 0a f5 f0 8a ef 32 ec e3
 Request sent to: 182.138.227.44:528
 ```
-- Differences / common points :
+- Common points :
+```text
+
+```
