@@ -65,6 +65,7 @@ Partially Printable Data (Hex & String): 8............=Z.F.4.v.9..
 Hex: 38 1e 00 00 12 00 00 8e ef 8f 12 97 ca 3d 5a 03 46 10 34 9c 76 cb 39 ed b9
 Request sent to: 182.138.227.44:528
 
+
 //bloc of request 2, same request as request 1 but later, with the same character
 //req 1
 Partially Printable Data (Hex & String): 7......l/..e.5Y..O....#lwH.B=.. 
@@ -85,5 +86,9 @@ Request sent to: 182.138.227.44:528
 ```
 - Common points :
 ```text
+darryl req 1, 14 first bytes : 37 16 00 00 19 00 00
+buzz req 1, 14 first bytes   : 37 16 00 00 19 00 00
 
+darryl req 2, 7 first bytes : 37 26 00 00 19 00 00
+buzz req 1, 7 first bytes   : 37 26 00 00 1a 00 00
 ```
