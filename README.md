@@ -9,7 +9,7 @@
 - Able to intercept every requests of the game, but I need to understand the encryption process
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/2.png)
 - Example request when you join the training room : darryl
-```c
+```text
 //bloc of request 1
 Partially Printable Data (Hex & String): 7.......v({.??.tPq...zy.....l.70
 Hex: 37 16 00 00 19 00 00 a4 76 28 7b f7 3f 3f c5 74 50 71 9b a9 00 7a 79 83 8f a7 84 ee 6c c3 37 30
@@ -39,7 +39,7 @@ Hex: 38 1e 00 00 12 00 00 6a da ff 72 fc 01 11 aa 2a 81 e7 2c ed 3d f1 48 ac 5f
 Request sent to: 182.138.227.44:528
 ```
 - Example request when you join the training room : buzz
-```c
+```text
 //bloc of request 1
 Partially Printable Data (Hex & String): 7.......+*]...7....p.........4.H
 Hex: 37 16 00 00 19 00 00 9b 2b 2a 5d 91 ab ce 37 9a c8 f6 81 70 e8 d8 1b a7 fe 98 a3 19 00 34 d5 48
