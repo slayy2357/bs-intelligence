@@ -3,4 +3,6 @@
 #### Read the number of players left
 - Able to read the number of players left (usually for showdown)
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/1.png)
-#### Get enemy coordinates in game
+#### Get enemy coordinates in game (later)
+### Part 2 : traffic
+#### dynamic analyse : POST requests
