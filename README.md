@@ -10,7 +10,7 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/2.png)
 - Example request when you join the training room : darryl
 ```c
-//request 1
+//bloc of request 1
 Partially Printable Data (Hex & String): 7.......v({.??.tPq...zy.....l.70
 Hex: 37 16 00 00 19 00 00 a4 76 28 7b f7 3f 3f c5 74 50 71 9b a9 00 7a 79 83 8f a7 84 ee 6c c3 37 30
 Request sent to: 182.138.227.44:528
@@ -24,7 +24,7 @@ Partially Printable Data (Hex & String): 8..........H.........S...
 Hex: 38 1e 00 00 12 00 00 0f af bc ed 48 d4 e2 f8 b8 b9 d4 eb fe be 53 eb bf a2
 Request sent to: 182.138.227.44:528
 
-//request 2, captured because things have changed even with the same character, but things don't have changed
+//bloc of request 2, captured because things have changed even with the same character, but things don't have changed
 Partially Printable Data (Hex & String): 7......,?..r._.......c......)...
 Hex: 37 16 00 00 19 00 00 2c 3f dd da 72 b3 5f a9 d2 a0 19 14 ad 91 63 a5 da 8d d1 81 93 29 90 d1 0b
 Request sent to: 182.138.227.44:528
@@ -40,7 +40,7 @@ Request sent to: 182.138.227.44:528
 ```
 - Example request when you join the training room : buzz
 ```c
-//request 1
+//bloc of request 1
 Partially Printable Data (Hex & String): 7.......+*]...7....p.........4.H
 Hex: 37 16 00 00 19 00 00 9b 2b 2a 5d 91 ab ce 37 9a c8 f6 81 70 e8 d8 1b a7 fe 98 a3 19 00 34 d5 48
 Request sent to: 182.138.227.44:528
@@ -54,7 +54,7 @@ Partially Printable Data (Hex & String): 8............=Z.F.4.v.9..
 Hex: 38 1e 00 00 12 00 00 8e ef 8f 12 97 ca 3d 5a 03 46 10 34 9c 76 cb 39 ed b9
 Request sent to: 182.138.227.44:528
 
-//request 2, captured because things have changed even with the same character, but things don't have changed
+//bloc of request 2, captured because things have changed even with the same character, but things don't have changed
 Partially Printable Data (Hex & String): 7......l/..e.5Y..O....#lwH.B=.. 
 Hex: 37 16 00 00 19 00 00 6c 2f 84 ab 65 9a 35 59 97 ab 4f cd dc a4 c8 23 6c 77 48 d5 42 3d 0e c6 20
 Request sent to: 182.138.227.44:528
