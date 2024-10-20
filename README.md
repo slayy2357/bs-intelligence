@@ -112,3 +112,43 @@ Call stack:
 0x20f905ba4 libsystem_pthread.dylib!thread_start
 //payload is probably already crypted in 0x101c1f6fc so need to analyse other functions
 ```
+- 101c13460 analyse :
+``` text
+//101c13460 is a call to next function, dumping args, we now that arg2 is the pointer to payload, but the data look crypted :
+Argument 0 : 0x25
+Argument 1 : 0x12
+Argument 2 (Pointer) : 0x107b328f0
+Argument 3 (Size) : 0x1dd
+Argument 4 : 0x0
+Data in arg2: 00000000  35 56 00 01 d6 00 00 a2 a4 32 13 5d a3 31 35 47  5V.......2.].15G
+00000010  13 57 bc 31 67 de a2 3f b6 1e 05 92 25 c3 36 1a  .W.1g..?....%.6.
+00000020  eb b8 7d fd 41 49 b9 4f ff 06 6d 40 b8 4b 1f 63  ..}.AI.O..m@.K.c
+00000030  ae da f7 92 84 35 b3 c6 22 be 90 08 9e 9b a2 80  .....5..".......
+00000040  b3 6b f4 fe 01 19 c5 72 92 ec dc fb 33 f9 6e 45  .k.....r....3.nE
+00000050  16 18 0e fe c6 c5 91 d6 de f1 f2 4f 96 0b 11 ed  ...........O....
+00000060  db a6 47 44 7f a9 81 ee d3 c2 bc a4 28 1c ca 21  ..GD........(..!
+00000070  64 aa 40 b0 ad 03 97 8d 0d 01 ef 72 78 d8 59 b5  d.@........rx.Y.
+00000080  77 72 91 c8 f0 87 06 7e f8 bf b1 e3 f2 2b c8 df  wr.....~.....+..
+00000090  a0 6e 5d 7f 33 ab 16 f3 92 c6 1c 2e b3 9e de 38  .n].3..........8
+000000a0  f8 5e 6b 60 43 81 0e 8f 0e be a8 aa ba 5e 61 08  .^k`C........^a.
+000000b0  1e 25 07 ef a9 07 b2 ca 7f 81 5c 3e 87 57 a1 d7  .%........\>.W..
+000000c0  8b 19 ee 8e f7 06 6c 1d 92 bb 13 61 79 bb d7 1f  ......l....ay...
+000000d0  29 01 8b 78 d3 75 85 9d 20 25 45 c5 6e 31 b3 c1  )..x.u.. %E.n1..
+000000e0  9e 27 7c d4 33 84 cb cb c1 4d 8d 3b 06 9d 3a 44  .'|.3....M.;..:D
+000000f0  57 22 27 2b 4f 24 d0 b7 a2 f6 a0 80 ec 03 df 8b  W"'+O$..........
+00000100  a9 58 2a 19 15 08 96 6e 06 85 15 e0 86 f7 fa f5  .X*....n........
+00000110  4a 00 98 47 89 fb 1e ae 2e c6 b8 6c c7 04 45 d0  J..G.......l..E.
+00000120  ca 76 11 c9 13 69 f5 6e 9c 20 bd 30 15 2f 69 69  .v...i.n. .0./ii
+00000130  b1 51 dd 73 9d 1c bc 48 96 b3 d3 14 a4 2d 01 97  .Q.s...H.....-..
+00000140  93 4e 33 37 bc d8 63 54 1e 3b 8a 09 bb ff 1e f8  .N37..cT.;......
+00000150  60 fe 97 0b 6a 4b a0 db c1 5b 47 ad 08 45 03 9f  `...jK...[G..E..
+00000160  b5 76 14 f5 b5 69 9b 18 9d d0 69 4a ee 8d 2b d3  .v...i....iJ..+.
+00000170  59 62 0a 68 f5 67 2e 87 97 90 fc 81 fb 71 f1 46  Yb.h.g.......q.F
+00000180  39 fd e3 dc 83 d4 14 22 47 b7 a7 30 2d b4 8c 08  9......"G..0-...
+00000190  6c 30 80 d2 ee 43 18 e0 4e 2c ad ee ca ca 0c 79  l0...C..N,.....y
+000001a0  9f f4 b3 33 5a 5a 14 9e 78 53 c0 c6 63 7c 32 78  ...3ZZ..xS..c|2x
+000001b0  e3 02 c6 91 80 f5 e3 52 7e ad fa 0c f2 cf af 4b  .......R~......K
+000001c0  3f cd c4 23 52 24 94 f6 ed c8 6b 71 40 cb 80 e6  ?..#R$....kq@...
+000001d0  b8 33 83 ed 8c 7e d3 b5 c0 d1 0d 57 96           .3...~.....W.
+Offset: 0x1c1345c called by: 0x8841800001c13428
+```
