@@ -163,7 +163,7 @@ So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460 b
 4 : 0x0 unknow (parameter, always 0x0)
 5 : ?
 ```
-The best way to understand is probably here, backtracing and anaylsing, but later
+The best way to understand is probably here, backtracing and analysing, but later
 - Analysing modules
 libCommonCrypto.dylib
 CCSHA256 : error
