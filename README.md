@@ -120,7 +120,8 @@ Argument 1 : 0x12
 Argument 2 (Pointer) : 0x107b328f0
 Argument 3 (Size) : 0x1dd
 Argument 4 : 0x0
-Data in arg2: 00000000  35 56 00 01 d6 00 00 a2 a4 32 13 5d a3 31 35 47  5V.......2.].15G
+Data in arg2:
+00000000  35 56 00 01 d6 00 00 a2 a4 32 13 5d a3 31 35 47  5V.......2.].15G
 00000010  13 57 bc 31 67 de a2 3f b6 1e 05 92 25 c3 36 1a  .W.1g..?....%.6.
 00000020  eb b8 7d fd 41 49 b9 4f ff 06 6d 40 b8 4b 1f 63  ..}.AI.O..m@.K.c
 00000030  ae da f7 92 84 35 b3 c6 22 be 90 08 9e 9b a2 80  .....5..".......
@@ -152,3 +153,4 @@ Data in arg2: 00000000  35 56 00 01 d6 00 00 a2 a4 32 13 5d a3 31 35 47  5V.....
 000001d0  b8 33 83 ed 8c 7e d3 b5 c0 d1 0d 57 96           .3...~.....W.
 Offset: 0x1c1345c called by: 0x8841800001c13428
 ```
+So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460
