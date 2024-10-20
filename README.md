@@ -306,19 +306,23 @@ CCCrypt  : 1 call :
 //request sended after loading 100%, not what we are looking for but OK
 //now we now that the game don't use CCCrypt for other requests..
 ```
-
+``` text
 Security.framework
 SecEncryptTransform    : error
 SecDecryptTransform    : error
 SecKeyEncrypt          : 0 call
 SecKeyDecrypt          : 0 call
 SecCertificateCopyData : 20+ call
+```
 
+``` text
 CFNetwork.framework
 CFNetworkCopyProxiesForURL : 0 call
 CFURLConnectionSend        : error
 CFHTTPMessageAppendBytes   : 5+ call //headers, not interessant
+```
 
+``` text
 libboringssl.dylib
 SSL_write          : 20+ call //interessant
 SSL_read           : 20+ call //intéressant
@@ -326,3 +330,4 @@ EVP_EncryptInit_ex : error
 EVP_DecryptInit_ex : error
 EVP_EncryptUpdate  : error
 EVP_DecryptUpdate  : error
+```
