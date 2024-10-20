@@ -165,11 +165,13 @@ So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460 b
 ```
 The best way to understand is probably here, backtracing and analysing, but later
 - Analysing modules
+```text
 libCommonCrypto.dylib
 CCSHA256 : error
 CCSHA1   : error
 CCMD5    : error
 CCCrypt  : 1 call :
+```
 
 ``` text
 00000000  7b 22 61 64 76 65 72 74 69 73 65 72 49 64 45 6e  {"advertiserIdEn
