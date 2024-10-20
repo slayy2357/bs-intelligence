@@ -306,9 +306,6 @@ CCCrypt  : 1 call :
 //request sended after loading 100%, not what we are looking for but OK
 //now we now that the game don't use CCCrypt for other requests..
 ```
-
-SecCertificateCopyData : 20+ call
-
 ``` text
 libboringssl.dylib
 SSL_write          : 20+ call //interessant
@@ -349,9 +346,6 @@ SSL_read           : 20+ call, example when you look other profiles :
 00000200  23 46 37 43 34 46 46 22 2c 22 70 6c 61 79 65 72  #F7C4FF","player
 00000210  4e 61 6d 65 22 3a 22 53 4b 7c 73 6c 75 59 7a 20  Name":"SK|sluYz 
 00000220  70 72 6f 22 7d 5d 7d 7d                          pro"}]}}
-
-EVP_EncryptInit_ex : error
-EVP_DecryptInit_ex : error
-EVP_EncryptUpdate  : error
-EVP_DecryptUpdate  : error
 ```
+
+SecCertificateCopyData : 20+ call
