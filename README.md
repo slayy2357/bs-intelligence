@@ -154,3 +154,12 @@ Data in arg2:
 Offset: 0x1c1345c called by: 0x8841800001c13428
 ```
 So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460 bcause already encrypted
+``` text
+101c13460 call 101c1f62c using 6 args :
+0 : 0x25 (always)
+1 : 0x12 unknow
+2 : pointer to the payload in memory
+3 : size of the payload in memory
+4 : unknow (parameter, always 0x0)
+5 : ?
+```
