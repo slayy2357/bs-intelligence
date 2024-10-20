@@ -153,4 +153,4 @@ Data in arg2:
 000001d0  b8 33 83 ed 8c 7e d3 b5 c0 d1 0d 57 96           .3...~.....W.
 Offset: 0x1c1345c called by: 0x8841800001c13428
 ```
-So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460
+So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460 bcause already encrypted
