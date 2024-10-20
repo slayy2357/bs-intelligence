@@ -5,7 +5,7 @@
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/1.png)
 #### Get enemy coordinates in game (later)
 ### Part 2 : traffic
-#### Dynamic analyse : POST requests
+#### Dynamic analyse : POST requests (crypted)
 - Example request when you join the training room : darryl
 ```text
 //bloc of request 1
@@ -96,3 +96,4 @@ here in the req 2, the fifth byte looks like an ID that changes when switching c
 if you force 37 26 00 00 1a 00 00 --> 37 26 00 00 19 00 00 for example :
 ```
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/5.png)
+### Decrypting traffic
