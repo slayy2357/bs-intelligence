@@ -110,4 +110,5 @@ Call stack:
 0x101d31d04 !0x1c1dd04 (0x101c1dd04) //0x101c1dd04 call 0x101c1322c
 0x20f9066cc libsystem_pthread.dylib!_pthread_start //etc
 0x20f905ba4 libsystem_pthread.dylib!thread_start
+//payload is probably already crypted in 0x101c1f6fc so need to analyse other functions
 ```
