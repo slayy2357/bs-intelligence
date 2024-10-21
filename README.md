@@ -348,3 +348,4 @@ SSL_read           : 20+ call, example when you look other profiles :
 00000220  70 72 6f 22 7d 5d 7d 7d                          pro"}]}}
 ```
 So, we can read some payloads before encryption through SSL_write, SSL_read, and CCCrypt, but those aren't the main payloads. What we want to intercept is the payload sent through the send function before encryption, as that's how the game communicates with the server—for example, when joining a game, using emotes, etc
+- Strategy to read the payload of send BEFORE encryption
