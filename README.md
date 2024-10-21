@@ -349,3 +349,25 @@ SSL_read           : 20+ call, example when you look other profiles :
 ```
 So, we can read some payloads before encryption through SSL_write, SSL_read, and CCCrypt, but those aren't the main payloads. What we want to intercept is the payload sent through the send function before encryption, as that's how the game communicates with the server—for example, when joining a game, using emotes, etc
 - Strategy to read the payload of send BEFORE encryption
+``` text
+We know that:
+
+The first requests are ALWAYS in the same order, for example:
+
+request A
+request B
+Request A will ALWAYS be sent before request B, and the gap between their payload addresses in memory is ALWAYS the same. For example:
+
+request A (0x100); // payload address
+request B (0x200); // payload address
+So, based on this, we can predict the address of payload B before it is created:
+
+payload B = payload A + 0x100
+This allows us to hook the address in memory before the payload is encrypted / writed to see which function or address writes the encrypted payload b.
+
+For example, the memory where payload B will be written looks like this before encryption: 0000 0000 0000 0000.
+
+We place a hook at this memory location.
+The encryption function (e.g., 0x1c121e) writes to this location: 1010 1000 1010 1000.
+BOOM, our hook is triggered, called by the encryption function at 0x1c121e.
+```
