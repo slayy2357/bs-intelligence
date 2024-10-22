@@ -8,7 +8,6 @@
 #### Dynamic analyse : POST requests (crypted)
 crypted request example : [crypted-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/data/crypted-001.txt)
 if you change anything (for the joining request example) :
-```
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/5.png)
 ### Decrypting traffic
 - To decrypt requests, we first need to understand how the game encrypts them by analyzing the functions that call POST requests :
