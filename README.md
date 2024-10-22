@@ -29,8 +29,8 @@ CCCrypt  : 1 call :
 libboringssl.dylib
 SSL_write          : 20+ call //interessant
 SSL_read           : 20+ call, example when you look other profiles :
-[ssl_read-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/data/ssl_read-001.txt)
 ```
+[ssl_read-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/data/ssl_read-001.txt)
 So, we can read some payloads before encryption through SSL_write, SSL_read, and CCCrypt, but those aren't the main payloads. What we want to intercept is the payload sent through the send function before encryption, as that's how the game communicates with the server—for example, when joining a game, using emotes, etc
 - Strategy to read the payload of send BEFORE encryption
 ``` text
