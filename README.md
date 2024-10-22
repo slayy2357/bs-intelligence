@@ -6,14 +6,14 @@
 #### Get enemy coordinates in game (later)
 ### Part 2 : traffic
 #### Dynamic analyse : POST requests (crypted)
-crypted request example : [crypted-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/dump/requests/crypted-001.txt)  
+crypted request example : [crypted-001.txt](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/requests/crypted-001.txt)  
 If you change anything (for the joining request example) :
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/5.png)
 ### Decrypting traffic
 - To decrypt requests, we first need to understand how the game encrypts them by analyzing the functions that call POST requests :
-[backtrace-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/dump/requests/backtrace-001.txt)
+[backtrace-001.txt](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/requests/backtrace-001.txt)
 - 101c13460 analyse :
-[101c13460.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/dump/requests/101c13460.txt)  
+[101c13460.txt](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/requests/101c13460.txt)  
 So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460 bcause already encrypted  
 The best way to understand is probably here, backtracing and analysing, but later
 - Analysing modules
@@ -24,13 +24,13 @@ CCSHA1   : error
 CCMD5    : error
 CCCrypt  : 1 call :
 ```
-[cccrypt-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/dump/requests/cccrypt-001.txt)
+[cccrypt-001.txt](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/requests/cccrypt-001.txt)
 ``` text
 libboringssl.dylib
 SSL_write          : 20+ call //interessant
 SSL_read           : 20+ call, example when you look other profiles :
 ```
-[ssl_read-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/dump/requests/ssl_read-001.txt)  
+[ssl_read-001.txt](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/requests/ssl_read-001.txt)  
 So, we can read some payloads before encryption through SSL_write, SSL_read, and CCCrypt, but those aren't the main payloads. What we want to intercept is the payload sent through the send function before encryption, as that's how the game communicates with the server—for example, when joining a game, using emotes, etc
 - Strategy to read the payload of send BEFORE encryption
 ``` text
