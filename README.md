@@ -13,8 +13,8 @@ if you change anything (for the joining request example) :
 - To decrypt requests, we first need to understand how the game encrypts them by analyzing the functions that call POST requests :
 [backtrace-001.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/data/backtrace-001.txt)
 - 101c13460 analyse :
-[101c13460.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/data/101c13460.txt)
-So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460 bcause already encrypted
+[101c13460.txt](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/data/101c13460.txt)  
+So we need to focus on the data pointed by arg2 modifications BEFORE 101c13460 bcause already encrypted  
 The best way to understand is probably here, backtracing and analysing, but later
 - Analysing modules
 ```text
