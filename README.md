@@ -71,7 +71,7 @@ So, what we wan't to modify for example is this payload (the request when you jo
 00000090  5f 6f 77 6e 65 64 22 3a 74 72 75 65 2c 22 68 65  _owned":true,"he
 000000a0  72 6f 5f 6c 65 76 65 6c 22 3a 31 7d              ro_level":1}
 ```
-Replacing by lily's request :
+Replacing by lily's (no skin) request :
 ``` text
 00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
