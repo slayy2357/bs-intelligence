@@ -9,7 +9,7 @@
 crypted request example : [crypted-001.txt](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/crypted-001.txt)  
 If you change anything (for the joining request example) :
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/5.png)
-### Decrypting traffic
+#### Decrypting traffic
 - To decrypt requests, we first need to understand how the game encrypts them by analyzing the functions that call POST requests :
 [backtrace-001.txt](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/backtrace-001.txt)
 - 101c13460 payload analyse :
