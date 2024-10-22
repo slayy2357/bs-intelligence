@@ -57,7 +57,7 @@ BOOM, our hook is triggered, called by the encryption function at 0x1c121e.
 ```
 Alright, I haven't found the encryption function yet, but now I'm able to read and modify every payload before encryption
 #### Payloads modifications tests
-So, what we wan't to modify for example is this payload (the request when you join the training map with berry) :
+So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
 00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
