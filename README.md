@@ -55,4 +55,4 @@ We place a hook at this memory location.
 The encryption function (e.g., 0x1c121e) writes to this location: 1010 1000 1010 1000.
 BOOM, our hook is triggered, called by the encryption function at 0x1c121e.
 ```
-Alright, I don't found the encryption function for the moment, but I found payloads BEFORE encryption, very good news
+Alright, I haven't found the encryption function yet, but now I'm able to read and modify every payload before encryption
