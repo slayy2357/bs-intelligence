@@ -56,3 +56,18 @@ The encryption function (e.g., 0x1c121e) writes to this location: 1010 1000 1010
 BOOM, our hook is triggered, called by the encryption function at 0x1c121e.
 ```
 Alright, I haven't found the encryption function yet, but now I'm able to read and modify every payload before encryption
+#### Payloads modifications tests
+So, what we wan't to modify for example is this payload (the request when you join the training map with berry) :
+``` text
+00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000020  00 00 00 10 6c 61 73 65 72 5f 74 72 79 5f 62 75  ....laser_try_bu
+00000030  74 74 6f 6e 00 00 00 74 7b 22 62 75 74 74 6f 6e  tton...t{"button
+00000040  22 3a 32 2c 22 74 72 61 69 6e 69 6e 67 5f 63 6f  ":2,"training_co
+00000050  6e 74 65 78 74 22 3a 32 2c 22 68 65 72 6f 22 3a  ntext":2,"hero":
+00000060  31 36 30 30 30 30 38 32 2c 22 68 65 72 6f 5f 6f  16000082,"hero_o
+00000070  77 6e 65 64 22 3a 74 72 75 65 2c 22 73 6b 69 6e  wned":true,"skin
+00000080  22 3a 32 39 30 30 30 39 32 32 2c 22 73 6b 69 6e  ":29000922,"skin
+00000090  5f 6f 77 6e 65 64 22 3a 74 72 75 65 2c 22 68 65  _owned":true,"he
+000000a0  72 6f 5f 6c 65 76 65 6c 22 3a 31 7d              ro_level":1}
+```
