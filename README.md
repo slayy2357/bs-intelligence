@@ -123,6 +123,14 @@ Analyse :
 //"skin_owned":true if you have the skin
 //"hero_level":1 the level of your hero
 ```
+[send message in chat request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-009.txt)
+``` text
+Analyse :
+00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000020  00 00 00 04 6c 6d 61 6f                          ....lmao
+//the message that I send
+```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
