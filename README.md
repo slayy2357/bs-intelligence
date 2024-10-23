@@ -117,11 +117,15 @@ Analyse :
 Analyse :
 "button":2 probably the choice if you wan't to be in training map or training match vs bots
 "training_context":2 same
-"hero":16000077 the static ID of your hero, here larry lawrie for example
+"hero":16000067 the static ID of your hero, here willow for example
 "hero_owned":true if you have the hero
-"skin":29000749 the static ID of your skin, here default larry lawrie
+"skin":29000629 the static ID of your skin, here default willow
 "skin_owned":true if you have the skin
 "hero_level":1 the level of your hero
+"gadget":23000564 the static ID of your gadget
+"star_power":23000562 the static ID of your star power
+"gear1":62000004 the static ID of your gear 1
+"gear2":62000002 the static ID of your gear 2
 ```
 [send text message in chat request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-009.txt)
 ``` text
