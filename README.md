@@ -112,7 +112,7 @@ Analyse :
 //parameters like url, opened time, action e.g
 ```
 [web API request ?](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-007.txt)  
-[join training map request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-005.txt)
+[join training map request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-008.txt)
 ``` text
 Analyse :
 //"button":2 probably the choice if you wan't to be in training map or training match vs bots
