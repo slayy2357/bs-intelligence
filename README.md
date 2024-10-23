@@ -84,6 +84,7 @@ Analyse :
 
 00000330  06 31 34 33 34 34 32                             .143442
 //maybe an ID
+//end of "readable" analyse, back later to analyse bytes
 ```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
