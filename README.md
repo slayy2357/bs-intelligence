@@ -106,6 +106,11 @@ Analyse :
 00000040  68 6f 70 22 2c 22 70 72 6f 64 75 63 74 22 3a 22  hop","product":"
 00000050  62 69 6c 6c 69 6e 67 4f 6b 22 2c 22 70 72 6f 64  billingOk","prod //I can buy, because modifications of AppStore official app ?
 ```
+[open news request 1](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-005.txt), [open news request 2](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-006.txt)
+``` text
+Analyse :
+//parameters like url, opened time, action e.g
+```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
