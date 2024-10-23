@@ -84,7 +84,16 @@ Analyse :
 
 00000330  06 31 34 33 34 34 32                             .143442
 //maybe an ID
-//end of "readable" analyse, back later to analyse bytes
+//end of "readable" analyse of first req, back later to analyse / understand unreadable things
+```
+[the render request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-002.txt)  
+``` text
+Analyse :
+//the request look like an evaluation of performances, render e.g
+
+000001d0  04 31 36 2e 32 00 00 00 09 69 50 61 64 31 33 2c  .16.2....iPad13,
+000001e0  31 30 00 00 00 00                                10....
+//iOS version, device model
 ```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
