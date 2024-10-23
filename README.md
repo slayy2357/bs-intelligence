@@ -147,6 +147,23 @@ Analyse :
 //here emotes ID are 0x88 and 0x89, it's the place in a list (0x88=brawl stars emote, 0x89=numbers emote):
 ```
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/6.png)
+[game/screen status request 1](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-012.txt), [game/screen status request 2](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-013.txt)
+``` text
+Analyse :
+//request 1
+00000020  00 00 00 09 6c 61 73 65 72 5f 66 70 73 00 00 00  ....laser_fps...
+00000030  2e 7b 22 66 70 73 22 3a 35 37 2c 22 6d 6f 64 65  .{"fps":57,"mode
+00000040  22 3a 22 69 6e 67 61 6d 65 22 2c 22 6c 6f 63 61  ":"ingame","loca
+00000050  74 69 6f 6e 22 3a 31 35 30 30 30 37 37 36 7d     tion":15000776}
+
+//request 2
+00000020  00 00 00 09 6c 61 73 65 72 5f 66 70 73 00 00 00  ....laser_fps...
+00000030  18 7b 22 66 70 73 22 3a 35 39 2c 22 6d 6f 64 65  .{"fps":59,"mode
+00000040  22 3a 22 6d 65 6e 75 22 7d                       ":"menu"}
+
+//request 1 when you are in game and switch back to menu mode
+//request 2 when you are in menu and switch to game mode (black borders maybe)
+```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
