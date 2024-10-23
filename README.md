@@ -111,6 +111,7 @@ Analyse :
 Analyse :
 //parameters like url, opened time, action e.g
 ```
+[web API request ?](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-007.txt)  
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
