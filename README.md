@@ -62,7 +62,28 @@ Alright, I haven't found the encryption function yet, but now I'm able to read a
 [the first request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-001.txt)  
 ``` text
 Analyse :
+00000090  00 00 00 28 36 31 62 32 61 64 38 36 32 64 63 35  ...(61b2ad862dc5
+000000a0  61 65 62 62 30 65 31 30 61 30 30 33 32 39 62 62  aebb0e10a00329bb
+000000b0  66 66 32 65 66 37 34 38 61 39 62 64 00 00 00 09  ff2ef748a9bd....
+//this look like an ID, if you modify it you can't access to the game
 
+000000c0  69 50 61 64 31 33 2c 31 30 01 03 00 00 00 05 66  iPad13,10......f
+000000d0  72 2d 43 48 00 00 00 04 31 36 2e 32 00 00 00 00  r-CH....16.2....
+//the device model, current country / region and the iOS version
+
+000000e0  00 00 00 00 00 00 00 00 00 24 44 35 42 43 32 45  .........$D5BC2E
+000000f0  37 30 2d 42 46 44 39 2d 34 38 33 36 2d 42 44 42  70-BFD9-4836-BDB
+00000100  44 2d 33 33 32 34 33 42 35 30 45 30 36 38 00 00  D-33243B50E068..
+//bundle ID or something ?
+
+00000110  05 a8 01 00 00 00 06 35 37 2e 33 32 35 00 00 00  .......57.325...
+//game version
+
+00000320  00 00 00 00 00 00 00 00 00 03 46 52 41 00 00 00  ..........FRA...
+//country ?
+
+00000330  06 31 34 33 34 34 32                             .143442
+//maybe an ID
 ```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
