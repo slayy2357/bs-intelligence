@@ -59,7 +59,7 @@ Alright, I haven't found the encryption function yet, but now I'm able to read a
 #### Decrypted payloads analyses
 (!) : Decrypted payloads are not necessarily readable. Decrypted means that the structure is logical and will be the same for all payloads  
 - Dump of "interessant" payload found for the moment :  
-[the first request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-001.txt)  
+[the first request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-001.txt) : test  
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
