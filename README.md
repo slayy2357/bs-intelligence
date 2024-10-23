@@ -179,3 +179,8 @@ I also tried modifying different requests, and everything worked: changing the c
 I'm still working on the player position payload, rewards, etc., but I'll get back to that later
 ### Part 3 : traffic (response from server)
 #### Dynamic analyse : responses (crypted)
+``` text
+send function    : readable payload --> encrypt function --> send request function
+receive function : receive response function --> encrypted payload --> decrypt function --> readable payload
+```
+It will be harder because I only know the receive response function at the moment. The strategy will probably be to set a hook on the encrypted payload to get static functions that can read the encrypted payload, maybe the decrypt function
