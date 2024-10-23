@@ -169,6 +169,11 @@ Analyse :
 //request 2 when you are in menu and switch to game mode (black borders maybe)
 ```
 [all tutorial requests](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-014.txt)
+[catalog request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-015.txt)
+``` text
+Analyse :
+//the action and previous location
+```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
