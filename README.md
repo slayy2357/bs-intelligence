@@ -178,3 +178,4 @@ Analyse :
 I also tried modifying different requests, and everything worked: changing the chosen hero, modifying the chat message, chat emote, ingame emotes, e.g
 I'm still working on the player position payload, rewards, etc., but I'll get back to that later
 ### Part 3 : traffic (response from server)
+#### Dynamic analyse : responses (crypted)
