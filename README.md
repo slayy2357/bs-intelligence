@@ -97,6 +97,14 @@ Analyse :
 ```
 [shop request 1](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-003.txt), [shop request 2](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-004.txt)
 ``` text
+Analyse :
+//requests used for the shop, req1 is auto, req2 when you open the shop
+
+//req 1 = infos about transactions e.g
+//req 2 = action (open the shop), and if you can buy items in the shop with money, if your game is an outstore installation, modified e.g, security don't let you buy with money I guess
+
+00000040  68 6f 70 22 2c 22 70 72 6f 64 75 63 74 22 3a 22  hop","product":"
+00000050  62 69 6c 6c 69 6e 67 4f 6b 22 2c 22 70 72 6f 64  billingOk","prod //I can buy, because modifications of AppStore official app ?
 ```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
