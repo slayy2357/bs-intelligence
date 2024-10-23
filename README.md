@@ -144,7 +144,7 @@ Analyse :
 00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 00000020  28 2e 00 00 89 f0 cb 31 00                       (......1.
 
-//here emotes ID are 0x88 and 0x89, it's the place in a list :
+//here emotes ID are 0x88 and 0x89, it's the place in a list (0x88=brawl stars emote, 0x89=numbers emote):
 ```
 ![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/6.png)
 #### Payloads modifications tests
