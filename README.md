@@ -112,6 +112,17 @@ Analyse :
 //parameters like url, opened time, action e.g
 ```
 [web API request ?](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-007.txt)  
+[join training map request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-005.txt)
+``` text
+Analyse :
+//"button":2 probably the choice if you wan't to be in training map or training match vs bots
+//"training_context":2 same
+//"hero":16000077 the static ID of your hero, here larry lawrie for example
+//"hero_owned":true if you have the hero
+//"skin":29000749 the static ID of your skin, here default larry lawrie
+//"skin_owned":true if you have the skin
+//"hero_level":1 the level of your hero
+```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
