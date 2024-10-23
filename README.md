@@ -131,15 +131,22 @@ Analyse :
 00000020  00 00 00 04 6c 6d 61 6f                          ....lmao
 //the message that I send
 ```
-[send emote in chat request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-010.txt)
+[send emote in chat request 1](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-010.txt), [send emote in chat request 2](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-011.txt)
 ``` text
 Analyse :
+//request emote 1
 00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 00000020  28 2e 00 00 88 f0 cb 31 00                       (......1.
-//request structure is similar when you send text message in chat
-//here 28 2e 00 00 88 f0 cb 31 is the emote ID
+
+//request emote 2
+00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000020  28 2e 00 00 89 f0 cb 31 00                       (......1.
+
+//here emotes ID are 0x88 and 0x89, it's the place in a list :
 ```
+![alt text](https://raw.githubusercontent.com/slayy2357/bs-intelligence/refs/heads/main/pictures/6.png)
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
