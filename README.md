@@ -95,6 +95,9 @@ Analyse :
 000001e0  31 30 00 00 00 00                                10....
 //iOS version, device model
 ```
+[shop request 1](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-003.txt), [shop request 2](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-004.txt)
+``` text
+```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
 ``` text
