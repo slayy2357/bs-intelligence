@@ -123,13 +123,22 @@ Analyse :
 //"skin_owned":true if you have the skin
 //"hero_level":1 the level of your hero
 ```
-[send message in chat request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-009.txt)
+[send text message in chat request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-009.txt)
 ``` text
 Analyse :
 00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 00000020  00 00 00 04 6c 6d 61 6f                          ....lmao
 //the message that I send
+```
+[send emote in chat request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-010.txt)
+``` text
+Analyse :
+00000000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00000020  28 2e 00 00 88 f0 cb 31 00                       (......1.
+//request structure is similar when you send text message in chat
+//here 28 2e 00 00 88 f0 cb 31 is the emote ID
 ```
 #### Payloads modifications tests
 So, what we wan't to modify for example is this payload (the request when you join the training map with berry (black skin)) :
