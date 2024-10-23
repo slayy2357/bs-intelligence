@@ -121,7 +121,7 @@ Analyse :
 "hero_owned":true if you have the hero
 "skin":29000629 the static ID of your skin, here default willow
 "skin_owned":true if you have the skin
-"hero_level":1 the level of your hero
+"hero_level":11 the level of your hero
 "gadget":23000564 the static ID of your gadget
 "star_power":23000562 the static ID of your star power
 "gear1":62000004 the static ID of your gear 1
