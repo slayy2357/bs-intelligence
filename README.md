@@ -168,7 +168,7 @@ Analyse :
 //request 1 when you are in game and switch back to menu mode
 //request 2 when you are in menu and switch to game mode (black borders maybe)
 ```
-[all tutorial requests](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-014.txt)
+[all tutorial requests](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-014.txt)  
 [catalog request](https://github.com/slayy2357/bs-intelligence/blob/main/dump/requests/decrypted-015.txt)
 ``` text
 Analyse :
