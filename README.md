@@ -187,6 +187,6 @@ It will be harder because I only know the receive response function at the momen
 [actual position](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/7.png)
 #### Different types of responses
 - Internal : the response will only be handled by the internal functions of the game --> this is what we are looking for  
-[internal response & backtrace example](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/7.png)
+[internal response & backtrace example](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/10.png)
 - External : the response will only be handled by external functions, like dylibs etc. They are more "low-level" and less relevant to what we are looking for  
-[external responses & backtraces example](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/7.png)
+[external responses & backtraces example](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/9.png)
