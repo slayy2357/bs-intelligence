@@ -185,3 +185,4 @@ receive function : receive response function --> encrypted payload --> decrypt f
 ```
 It will be harder because I only know the receive response function at the moment. The strategy will probably be to set a hook on the encrypted payload to get static functions that can read the encrypted payload, maybe the decrypt function  
 [Actual position](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/7.png)
+#### Different types of responses
