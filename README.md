@@ -190,4 +190,4 @@ It will be harder because I only know the receive response function at the momen
 - External : the response will only be handled by external functions, like dylibs etc. They are more "low-level" and less relevant to what we are looking for : [external responses & backtraces example](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/9.png)
 - For the send requests, it was the same, I chose not to analyze the external ones due to fewer requests, size, etc., but I will analyze them later, both for send requests and responses.  
 Anyway, for now, let's focus on internal responses
-#### Decrypting internal responses
+#### Decrypting internal responses of the server
