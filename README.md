@@ -196,5 +196,5 @@ So here the response is encrypted --> not a logical structure, unreadable etc.
 The backtrace of the receive response function is not really important here because the response is decrypted after the receive function, and the backtrace only shows functions before the receive function.  
 Interessant informations :  
 - operation : `read`
-- static adress : `0x101a11da0`
+- static adress : `0x101a11da0`  
 And then the backtrace to see functions that call `0x101a11da0`
