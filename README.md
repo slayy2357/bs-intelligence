@@ -197,3 +197,4 @@ The backtrace of the receive response function is not really important here beca
 Interessant informations :  
 - operation : `read`
 - static adress : `0x101a11da0`
+And then the backtrace to see functions that call `0x101a11da0`
