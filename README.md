@@ -193,4 +193,7 @@ Anyway, for now, let's focus on internal responses
 #### Decrypting internal responses of the server
 [random response](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/11.png)  
 So here the response is encrypted --> not a logical structure, unreadable etc.  
-The backtrace of the receive response function is not really important here because the response is decrypted after the receive function, and the backtrace only shows functions before the receive function.
+The backtrace of the receive response function is not really important here because the response is decrypted after the receive function, and the backtrace only shows functions before the receive function.  
+Interessant informations :  
+- operation : `read`
+- static adress : `0x101a11da0`
