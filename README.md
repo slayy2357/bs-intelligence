@@ -197,4 +197,6 @@ The backtrace of the receive response function is not really important here beca
 Interessant informations :  
 - operation : `read`
 - static adress : `0x101a11da0`  
-And then the backtrace to see functions that call `0x101a11da0`
+And then the backtrace to see functions that call `0x101a11da0`  
+`0x101a11da0` was exactly the information we needed because it's the first function that reads the encrypted response after the receive function. We will analyze this function.  
+[101a11da0](https://github.com/slayy2357/bs-intelligence/blob/main/pictures/12.png)  
